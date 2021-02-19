@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="css/styles2.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Mali&display=swap" rel="stylesheet">
+
+
+	<!-- Bootstrap scripts -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<title>Payment Gateway Integration</title>
+</head>
+
+<body>
+
+
+<section id="sec1">
+<!-- navbar -->
+<div class="container-fluid">
+<header>
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" id="top" href="#">Rescue , Save , Love  &#128062;</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" id="l1" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="l1" href="donate.html">Donate</a>
+      </li>    
+      <li class="nav-item">
+        <a class="nav-link" id="l1" href="#getintouch">GetInTouch</a>
+      </li> 
+    </ul>
+  </div>
+</nav>
+</header>
+</div>
+
+<div id="abt">
+    <div id="image-carousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img id="i1" src="images/img17.jpg" alt="image">
+        </div>
+        <div class="carousel-item">
+          <img id="i1" src="images/img3.jpg" alt="image">
+        </div>
+        <div class="carousel-item">
+          <img id="i1" src="images/img2.jpg" alt="image">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#image-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#image-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+    
+</div>
+</section>
+<div class="row" id="rescue">
+  <div class="col-lg-6" id="div1">
+    <h3><b>RESCUE THE MISTREATED</b></h3>
+    <p>We save and protect animals from suffering around the areas.We take in injured, sick or orphaned animals and nurse them to health or adulthood.After care,rehabilitators release  to fend for themselves on the streets so that they can survive on their own</p>
+  </div>
+  <div class="col-lg-6" id="div2">
+    <img id="i2" src="images/img8.jpg">    
+  </div>
+</div>
+
+<div class="row" id="adoption">
+  <div class="col-lg-6" id="div3">
+    <h3 style="text-align: center;"><b>ADOPT THE HOMELESS</b></h3>
+    <img id="i2" src="images/img16.jpg">  
+  </div>
+  <div class="col-lg-6" id="div4">
+      
+    <p>"Giving Animals a New Leash on Life".The number of euthanized animals could be reduced dramatically if more people adopted pets instead of buying them. When you adopt, you save a loving animal by making them part of your family and open up shelter space for another animal who might desperately need it.If every individual were to adopt one stray/homeless animal, the number of those on the streets will become negligible.</p>
+
+  </div>
+</div>
+
+
+<div class="row" id="medical">
+
+  <div class="col-lg-6" id="div5">
+    <h3><b>WILL WORK FOR ANIMALS</b></h3>
+    <p>We provide Medical Care for animals and we offers a high quality of care and ethical standards.We help to maintain food supply through livestock health monitoring and treatment, and mental health by keeping pets healthy and long-living.</p>
+  </div>
+  <div class="col-lg-6" id="div6">
+    <img id="i2" src="images/img11.jpg">    
+  </div>
+</div>
+
+<div id="getintouch">
+  <h1 id="hone" style="text-align: center; padding-bottom: 20px;">Get In Touch !!</h1>
+    <div class="container">
+    <div class="col-lg-8 m-auto d-block">
+      <form id="form1" action="#" onsubmit="return validation()">
+        <div class="form group">   
+          <label for="name">NAME : </label>
+          <input type="text" name="user" id="user"placeholder="USERNAME" title="Write your name" required="required" autocomplete="off" aria-required="true" class="form-control"><br>
+          <span id="users" class="text-danger font-weight-bold"></span><br>
+        </div>
+        <div class="form group">   
+        <label for="age">AGE : </label>
+        <input type="text" name="age" id="age" placeholder="AGE"autocomplete="off" title="Write your age should be btn 0 and 150" required=""class="form-control" ><br>
+        <span id="ages" class="text-danger font-weight-bold"></span><br>
+        </div>
+        <div class="form group">   
+        <label for="email">EMAIL : </label>
+        <input type="text" name="email" id="email" autocomplete="off" placeholder="MAIL-ID" title="Write your mailID" required="" class="form-control"><br>
+        <span id="emails" class="text-danger font-weight-bold"></span><br>
+        </div>
+        <div class="form group">   
+        <label for="mobileno">MOBILE-NO: </label>
+        <input type="text" name="mobileno" id="mobileno"  autocomplete="off" placeholder="MOBILE-NO" title="Write your mobileno" required=""class="form-control"><br>
+        <span id="mobilenos" class="text-danger font-weight-bold"></span><br>
+          </div>
+        <input type="submit" name="submit" value="SUBMIT" id="button">
+
+      </form>
+    </div>
+     
+  </div>
+</div>
+<script type="text/javascript" src="js/script1.js"></script>
+  
+</div>
+
+</body>
+</html>

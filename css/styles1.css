@@ -1,0 +1,72 @@
+body
+{
+	font-family: 'Kanit', sans-serif;
+}
+#top
+{
+	font-size: 1.5rem;
+	padding-top: 1.5rem;
+	padding-left: 3rem;
+	color: #EEB238FF;
+}
+
+header
+{
+	padding: 0 0 3rem;
+	background-color: #6E4C1EFF;
+}
+
+.navbar-brand
+{
+	font-weight: bold;
+	font-size: 2.5rem;
+}
+
+.nav-item
+{
+	padding: 0 30px;
+}
+
+#a
+{
+	font-size: 1.2rem;
+	color: #EEB238FF;
+}
+
+.container-fluid
+{ 
+	padding: 6% 23%;
+}
+
+#home
+{
+	background-color:#EEB238FF;
+	color: #6E4C1EFF;
+	padding: 2px;
+	font-weight: bold;
+}
+
+#q1
+{
+	font-size: 1.7em;
+	line-height: 1.5;
+	text-align: center;
+}	
+
+.row
+{
+	padding-left: 50px;
+
+}
+
+img
+{
+	padding: 30px;
+	margin-top: 20px;
+	border-radius: 100%;
+}
+
+
+
+
+

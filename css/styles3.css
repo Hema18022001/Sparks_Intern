@@ -1,0 +1,31 @@
+body
+{
+  background-image: url('img10.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  padding-top: 3%;
+}
+
+#donation
+{
+  font-size: 2rem;
+  padding-top: 15%;
+  font-weight: bolder;
+  padding-left: 30px; 
+  color: #000080;
+ }
+
+#form1
+{
+	margin-top: 3%;
+	margin-left: 6%;
+}
+
+#a1,#a2
+{
+	padding: 20px;
+	text-decoration: none;
+	color: #000080;
+}
+

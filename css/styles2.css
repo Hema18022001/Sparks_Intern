@@ -1,0 +1,95 @@
+#i1
+{
+	margin-top: 20px;
+	margin-bottom: 50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	height: 550px;
+	border-radius: 100%;
+}
+
+#sec1
+{
+	background-color: #D7CEC7;
+	font-family: 'Mali', cursive;
+}
+
+#top
+{
+	color: #76323F;
+	font-weight: bold;
+	padding: 20px;
+	font-size: 1.3rem;
+}
+
+#l1
+{
+	color: #76323F;
+	padding: 20px;
+	font-size: 1.1rem;
+	margin-right: 10px;
+
+}
+#rescue,#adoption,#medical,#getintouch
+{
+	font-family: 'Mali', cursive;
+	font-weight: bold;
+}
+#div1
+{
+	background-color: #c09f80;
+	color: #76323F;
+	padding: 100px;
+	text-align: center;
+
+}
+#div2
+{
+	background-color: #76323F;
+}
+#i2
+{
+	margin: 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	height: 400px;
+	border-radius: 100%;
+	padding-top: 10px;
+}
+#adoption
+{
+	background-color: #D7CEC7;
+    padding: 40px;
+    color: #76323F;
+    font-weight: bold;
+}
+#div4
+{
+	padding: 100px;
+	text-align: center;
+}
+#div5
+{
+	background-color: #76323F;
+	color: #c09f80;
+	padding: 100px;
+	text-align: center;
+}
+#div6
+{
+	background-color: #c09f80;
+}
+
+#getintouch
+{
+	background-color: #D7CEC7;
+	padding: 50px;
+}
+#form1
+{
+	padding-top: 10px;
+}
